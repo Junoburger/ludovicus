@@ -13,24 +13,13 @@ export const GameContainer = styled.div`
 `;
 export const GameList = styled.div`
   display: flex;
+  flex-direction: column;
   div {
     padding-bottom: 5vh;
   }
 `;
-export const Chapters = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-export const Chapter = styled.div`
-  font-size: 1.17em;
-`;
 
-export const Numbers = styled.div`
-  display: flex;
-  flex-direction: column;
-  span {
-    font-size: 1.17em;
-    margin-right: 50px;
-    padding-bottom: 5vh;
-  }
+export const Numbers = styled.span`
+  font-size: 1.17em;
+  margin-right: 50px;
 `;

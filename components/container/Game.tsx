@@ -1,8 +1,13 @@
 import React from "react";
-import { GameContainer, Chapter, Numbers, GameList, Chapters } from "../styled/GameChapters";
+import { GameContainer, Numbers, GameList } from "../styled/GameChapters";
 
 export const Game = () => {
-  const numbers = [1.1, 1.2, 1.3, 1.4];
+  const chapters = {
+    1.1: "Er is een spel.",
+    1.2: "Het spel is alomtegenwoordig.",
+    1.3: "Het spel heeft een doel.",
+    1.4: "Het doel van het spel is Éénheid.(Co-creatie)",
+  };
 
   return (
     <>
@@ -11,19 +16,24 @@ export const Game = () => {
           <span>1.</span>HET SPEL
         </h1>
         <GameList>
-          <Numbers>
-            {numbers.map((num) => (
-              <span key={num}>{num}</span>
-            ))}
-          </Numbers>
-          <Chapters>
-            <Chapter>Er is een spel.</Chapter>
-            <Chapter>
-              Het spel is <strong>alomtegenwoordig</strong>.
-            </Chapter>
-            <Chapter>Het spel heeft een doel.</Chapter>
-            <Chapter>Het doel van het spel is Éénheid.(Co-creatie)</Chapter>
-          </Chapters>
+          {Object.entries(chapters).map((entry) => {
+            const number = entry[0];
+            const chapter = entry[1];
+
+            return (
+              <div>
+                <Numbers>{number}</Numbers>
+                {chapter === "Het spel is alomtegenwoordig." ? (
+                  <>
+                    Het spel is
+                    <strong> alomtegenwoordig</strong>
+                  </>
+                ) : (
+                  chapter
+                )}
+              </div>
+            );
+          })}
         </GameList>
         <img width="100%" src="./static/Ludoweb.png" alt="web" />
       </GameContainer>
