@@ -12,10 +12,10 @@ export const Quotes = () => {
         leven te ontdekken, een nieuwe manier om in deze wereld te leven, en een transformatie
         teweeg te brengen in de maatschappij waarin hij leeft. Want door <i>zichzelf</i> te
         veranderen,verandert hij de maatschappij."
-        <Name>
-          - <i>Jiddu Krishnamurti</i>
-        </Name>
       </p>
+      <Name>
+        - <i>Jiddu Krishnamurti</i>
+      </Name>
     </ParagraphBody>
   );
 };
