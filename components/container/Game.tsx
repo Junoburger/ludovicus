@@ -25,7 +25,7 @@ export const Game = () => {
             <Chapter>Het doel van het spel is Éénheid.(Co-creatie)</Chapter>
           </Chapters>
         </GameList>
-        <img src="./static/Ludoweb.png" alt="web" />
+        <img width="100%" src="./static/Ludoweb.png" alt="web" />
       </GameContainer>
     </>
   );
