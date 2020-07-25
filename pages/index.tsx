@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Header } from "../components/container/Header";
 import { Quotes } from "../components/container/Quotes";
+import { TableOfContents } from "../components/container/TableOfContents";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <Header />
       <Quotes />
+      <TableOfContents />
     </>
   );
 }
