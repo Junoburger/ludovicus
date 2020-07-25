@@ -1,5 +1,5 @@
 import React from "react";
-import { ParagraphBody, Name } from "../styled/ParaGraph";
+import { ParagraphBody, Name } from "../styled/QuotesParagraph";
 
 export const Quotes = () => {
   return (
