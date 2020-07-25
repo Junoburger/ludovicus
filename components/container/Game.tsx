@@ -13,7 +13,7 @@ export const Game = () => {
         <GameList>
           <Numbers>
             {numbers.map((num) => (
-              <span>{num}</span>
+              <span key={num}>{num}</span>
             ))}
           </Numbers>
           <Chapters>
@@ -25,6 +25,7 @@ export const Game = () => {
             <Chapter>Het doel van het spel is Éénheid.(Co-creatie)</Chapter>
           </Chapters>
         </GameList>
+        <img src="./static/Ludoweb.png" alt="web" />
       </GameContainer>
     </>
   );

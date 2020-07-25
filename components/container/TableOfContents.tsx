@@ -10,8 +10,8 @@ export const TableOfContents = () => {
           <h3>
             <i>DE KERN</i>
             <ContentOption>
-              <span>1.</span>
-              HET SPEL
+              1.
+              <span>HET SPEL</span>
             </ContentOption>
           </h3>
         </ContentOptions>
@@ -19,16 +19,20 @@ export const TableOfContents = () => {
           <h3>
             <i>DE WERKING VAN HET SPEL: ESSENTIËLE ASPECTEN</i>
             <ContentOption>
-              <span>2.</span> SPEELSTIJLEN
+              2.
+              <span>SPEELSTIJLEN</span>
             </ContentOption>
             <ContentOption>
-              <span>3.</span> SPEELMODI
+              3.
+              <span>SPEELMODI</span>
             </ContentOption>
             <ContentOption>
-              <span>4.</span> ROLVERDELING
+              4.
+              <span>ROLVERDELING</span>
             </ContentOption>
             <ContentOption>
-              <span>5.</span> SPEELRICHTINGEN
+              5.
+              <span>SPEELRICHTINGEN</span>
             </ContentOption>
           </h3>
         </ContentOptions>
@@ -36,13 +40,13 @@ export const TableOfContents = () => {
           <h3>
             <i>DE WERKING VAN HET SPEL: EXISTENTIËLE ASPECTEN</i>
             <ContentOption>
-              <span>6.</span> SPEELSTIJLEN(2)
+              6.<span>SPEELSTIJLEN(2)</span>
             </ContentOption>
             <ContentOption>
-              <span>7.</span> SPEELMODI(2)
+              7.<span>SPEELMODI(2)</span>
             </ContentOption>
             <ContentOption>
-              <span>8.</span> ROLVERDELING(2)
+              8.<span>ROLVERDELING(2)</span>
             </ContentOption>
           </h3>
         </ContentOptions>
@@ -50,26 +54,26 @@ export const TableOfContents = () => {
           <h3>
             <i>HET VERHAAL. . .</i>
             <ContentOption>
-              <span>9.</span> ‘GOD’(HET GOEDE)
+              9. <span>‘GOD’(HET GOEDE)</span>
             </ContentOption>
             <ContentOption>
-              <span>10.</span> HET ‘MISVERSTAND’(DE HEL)
+              10. <span>HET ‘MISVERSTAND’(DE HEL)</span>
             </ContentOption>
             <ContentOption>
-              <span>11.</span> DE ‘DOODDOENER’(HET KWAAD)
+              11.<span>DE ‘DOODDOENER’(HET KWAAD)</span>
             </ContentOption>
             <ContentOption>
-              <span>12.</span> DEUGDEN EN ZONDEN
+              12.<span>DEUGDEN EN ZONDEN</span>
             </ContentOption>
             <ContentOption>
-              <span>13.</span> HET BOEK DER SPREUKEN
+              13.<span>HET BOEK DER SPREUKEN</span>
             </ContentOption>
           </h3>
         </ContentOptions>
         <ContentOptions>
           <h3>
             <ContentOption>
-              <span>?.</span> HET VRAAGTEKEN OP HET EIND
+              ?.<span>HET VRAAGTEKEN OP HET EIND</span>
             </ContentOption>
           </h3>
         </ContentOptions>
