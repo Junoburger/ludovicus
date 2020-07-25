@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Title from "./components/styled/Header";
+import { Title } from "../components/styled/Header";
 
 export default function Home() {
   return (
