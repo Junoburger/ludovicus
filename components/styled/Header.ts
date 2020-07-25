@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
-export const Title = styled.h1`
-  color: red;
+export const HeaderContainer = styled.h1`
+  display: flex;
+  justify-content: center;
+  h1 {
+    font-size: 82pt;
+  }
 `;

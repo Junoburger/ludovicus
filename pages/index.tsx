@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Title } from "../components/styled/Header";
+import { Header } from "../components/container/Header";
 
 export default function Home() {
   return (
@@ -8,8 +8,7 @@ export default function Home() {
         <title>Ludovicus</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Title>Statuut</Title>
-      <h1>Ludovicus</h1>
+      <Header />
     </>
   );
 }
