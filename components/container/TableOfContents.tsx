@@ -36,13 +36,13 @@ export const TableOfContents = () => {
           <h3>
             <i>DE WERKING VAN HET SPEL: EXISTENTIËLE ASPECTEN</i>
             <ContentOption>
-              <span>6.</span> SPEELSTIJLEN (2)
+              <span>6.</span> SPEELSTIJLEN(2)
             </ContentOption>
             <ContentOption>
-              <span>7.</span> SPEELMODI (2)
+              <span>7.</span> SPEELMODI(2)
             </ContentOption>
             <ContentOption>
-              <span>8.</span> ROLVERDELING (2)
+              <span>8.</span> ROLVERDELING(2)
             </ContentOption>
           </h3>
         </ContentOptions>
@@ -50,13 +50,13 @@ export const TableOfContents = () => {
           <h3>
             <i>HET VERHAAL. . .</i>
             <ContentOption>
-              <span>9.</span> ‘GOD’ (HET GOEDE)
+              <span>9.</span> ‘GOD’(HET GOEDE)
             </ContentOption>
             <ContentOption>
-              <span>10.</span> HET ‘MISVERSTAND’ (DE HEL)
+              <span>10.</span> HET ‘MISVERSTAND’(DE HEL)
             </ContentOption>
             <ContentOption>
-              <span>11.</span> DE ‘DOODDOENER’ (HET KWAAD)
+              <span>11.</span> DE ‘DOODDOENER’(HET KWAAD)
             </ContentOption>
             <ContentOption>
               <span>12.</span> DEUGDEN EN ZONDEN
