@@ -21,8 +21,9 @@ export const Game = () => {
             const chapter = entry[1];
 
             return (
-              <div>
+              <div key={number}>
                 <Numbers>{number}</Numbers>
+                {/* THIS MIGHT BECOME A SWITCH WHEN ACTUAL CHAPTERS OR INTERACTIVITY IS ADDED */}
                 {chapter === "Het spel is alomtegenwoordig." ? (
                   <>
                     Het spel is
