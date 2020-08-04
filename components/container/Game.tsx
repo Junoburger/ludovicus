@@ -10,7 +10,7 @@ export const Game = () => {
   };
 
   return (
-    <>
+
       <GameContainer>
         <h1>
           <span>1.</span>HET SPEL
@@ -38,6 +38,6 @@ export const Game = () => {
         </GameList>
         <img width="100%" src="./static/Ludoweb.png" alt="web" />
       </GameContainer>
-    </>
+
   );
 };
