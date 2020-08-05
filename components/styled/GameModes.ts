@@ -26,7 +26,7 @@ export const Gridlist = styled.div<{ list?: boolean }>`
           }
 
           li {
-            width: 30vw;
+            width: 50vw;
             display: flex;
             justify-content: space-between;
           }
@@ -37,4 +37,8 @@ export const Gridlist = styled.div<{ list?: boolean }>`
 `;
 export const ImageContainer = styled.div`
   position: relative;
+`;
+
+export const ChapterContainer = styled.div`
+  margin-top: 50px;
 `;
