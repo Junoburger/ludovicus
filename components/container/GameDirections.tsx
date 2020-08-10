@@ -58,7 +58,15 @@ const FiveTwo = () => {
         5.2
         <div style={{ display: "flex", flexDirection: "column", margin: "-4px 0 0 25px" }}>
           <DirectionAction>ONTWAKEN</DirectionAction>
+          <span>
+            De bewegingvan zelf-onbewuste naar(meer)zelfbewuste speler(Of, althans: de ervaring
+            ervan)
+          </span>
           <DirectionAction>INDOEZELEN</DirectionAction>
+          <span>
+            De beweging van zelfbewuste naar (meer) zelf-onbewuste speler (Of, althans: dergelijk
+            gedrag vertonen)
+          </span>
         </div>
       </Directionslist>
     </>
