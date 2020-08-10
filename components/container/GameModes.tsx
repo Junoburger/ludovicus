@@ -1,7 +1,7 @@
 import React from "react";
 import {
   ModiContainer,
-  Gridlist,
+  Modilist,
   Modi,
   ImageContainer,
   ChapterContainer,
@@ -11,7 +11,7 @@ const ThreeOne = () => {
   return (
     <>
       3.1 Er zijn meerdere speelmodi, namelijk:
-      <Gridlist>
+      <Modilist>
         <ul>
           <li>
             <Modi>acteur</Modi>
@@ -34,7 +34,7 @@ const ThreeOne = () => {
             <span>(p)</span>
           </li>
         </ul>
-      </Gridlist>
+      </Modilist>
     </>
   );
 };
@@ -43,7 +43,7 @@ const ThreeTwo = () => {
   return (
     <ChapterContainer>
       3.2 In relatie tot ‘het spelen van het spel’:
-      <Gridlist list>
+      <Modilist list="true">
         <ul>
           <li>
             <span style={{ display: "flex", flexDirection: "column" }}>
@@ -67,7 +67,7 @@ const ThreeTwo = () => {
             </strong>
           </li>
         </ul>
-      </Gridlist>
+      </Modilist>
     </ChapterContainer>
   );
 };
@@ -81,7 +81,7 @@ export const GameModes = () => {
         </h1>
         <ThreeOne />
         <ImageContainer>
-          <img src="./static/3punt1.png" alt="part" width="800px" />
+          <img src="./static/3punt1.png" alt="part" width="100%" />
         </ImageContainer>
         <ThreeTwo />
       </ModiContainer>

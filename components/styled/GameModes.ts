@@ -14,26 +14,25 @@ export const ModiContainer = styled.div`
 
 export const Modi = styled.span``;
 
-export const Gridlist = styled.div<{ list?: boolean }>`
+export const Modilist = styled.div<{ list?: boolean }>`
   ${(props) =>
-    props.list
-      ? null
-      : css`
-          ul li ${Modi}:before {
-            content: "●";
-            font-size: 10px;
-            margin-right: 5em;
-          }
+    props.list &&
+    css`
+      ul li ${Modi}:before {
+        content: "●";
+        font-size: 10px;
+        margin-right: 5em;
+      }
 
-          li {
-            width: 50vw;
-            display: flex;
-            justify-content: space-between;
-          }
-          ${Modi} {
-            margin-left: -20px;
-          }
-        `}
+      li {
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+      }
+      ${Modi} {
+        margin-left: -20px;
+      }
+    `}
 `;
 export const ImageContainer = styled.div`
   position: relative;
