@@ -20,9 +20,10 @@ export default function Home() {
       <TableOfContents />
       <Game />
       <PlayStyles />
-      <GameModes/>
-      <RoleDivision/>
-      <GameDirections/>
+      <GameModes />
+      <RoleDivision />
+      <GameDirections />
+      <PlayStyles second />
     </>
   );
 }
