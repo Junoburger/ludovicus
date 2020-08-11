@@ -108,6 +108,19 @@ const Six = () => {
           <li>figuranten</li>
         </ul>
       </div>
+      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
+        (2) <span>De werksituatie (repetitietijd):</span>
+        <ul>
+          <li>tritagonisten</li>
+        </ul>
+      </div>
+      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
+        (3) <span>De voorsteling (HET VERHAAL):</span>
+        <ul>
+          <li>protagonisten</li>
+          <li>antagonisten</li>
+        </ul>
+      </div>
     </>
   );
 };
