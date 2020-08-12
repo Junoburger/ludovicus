@@ -72,18 +72,35 @@ const ThreeTwo = () => {
   );
 };
 
-export const GameModes = () => {
+const Seven = () => {
+  return (
+    <>
+      <h1>
+        <span>7.</span>SPEELMODI (2)
+      </h1>
+      7.1 <span>Er zijn speelmodi die versmeltingen zijn van andere speelmodi:</span>
+    </>
+  );
+};
+
+export const GameModes = ({ ...props }) => {
   return (
     <>
       <ModiContainer>
-        <h1>
-          <span>3.</span>SPEELMODI
-        </h1>
-        <ThreeOne />
-        <ImageContainer>
-          <img src="./static/3punt1.png" alt="part" width="100%" />
-        </ImageContainer>
-        <ThreeTwo />
+        {!props.second ? (
+          <>
+            <h1>
+              <span>3.</span>SPEELMODI
+            </h1>
+            <ThreeOne />
+            <ImageContainer>
+              <img src="./static/3punt1.png" alt="part" width="100%" />
+            </ImageContainer>
+            <ThreeTwo />
+          </>
+        ) : (
+          <Seven />
+        )}
       </ModiContainer>
     </>
   );

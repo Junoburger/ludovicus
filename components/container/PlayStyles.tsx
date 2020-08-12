@@ -1,5 +1,10 @@
 import React from "react";
-import { PlayStylesContainer } from "../styled/PlayingStyles";
+import {
+  PlayStylesContainer,
+  FlexContainer,
+  PlayStylesList,
+  PlayStylesListItem,
+} from "../styled/PlayingStyles";
 
 const TwoOne = () => {
   return (
@@ -43,7 +48,7 @@ const TwoThree = () => {
 const Six = () => {
   return (
     <>
-      <div style={{ display: "flex" }}>
+      <FlexContainer>
         6.1
         <span>
           Speelstijlen
@@ -57,36 +62,38 @@ const Six = () => {
           <br />
           <br />
         </span>
-      </div>
-      <div style={{ display: "flex" }}>
+      </FlexContainer>
+      <FlexContainer>
         6.2
         <span>
           Interpretatiesvan speelstijlenen de speelmodus waarop het accent ligt–vanuit de alledaagse
           werkelijkheid bezien:
         </span>
-      </div>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        (1) <span>De alledaagse werkelijkheid:</span>
-        <ul>
-          <li>toeschouwer</li>
-        </ul>
-      </div>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        (2) <span>De werksituatie(repetitietijd):</span>
-        <ul>
-          <li>acteur</li>
-          <li>toeschouwer</li>
-          <li>regisseur</li>
-        </ul>
-      </div>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        (3) <span>De voorstelling(HET VERHAAL):</span>
-        <ul>
-          <li>acteur</li>
-        </ul>
-      </div>
+      </FlexContainer>
+      <PlayStylesList>
+        <PlayStylesListItem>
+          (1) <span>De alledaagse werkelijkheid:</span>
+          <ul>
+            <li>toeschouwer</li>
+          </ul>
+        </PlayStylesListItem>
+        <PlayStylesListItem>
+          (2) <span>De werksituatie(repetitietijd):</span>
+          <ul>
+            <li>acteur</li>
+            <li>toeschouwer</li>
+            <li>regisseur</li>
+          </ul>
+        </PlayStylesListItem>
+        <PlayStylesListItem>
+          (3) <span>De voorstelling(HET VERHAAL):</span>
+          <ul>
+            <li>acteur</li>
+          </ul>
+        </PlayStylesListItem>
+      </PlayStylesList>
       <img src="./static/triangle.png" width="100%" />
-      <div style={{ display: "flex" }}>
+      <FlexContainer>
         6.3
         <span>
           Speelstijlen
@@ -100,27 +107,36 @@ const Six = () => {
           <br />
           <br />
         </span>
-      </div>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        (1) <span>De alledaagse werkelijkheid:</span>
-        <ul>
-          <li>bijrollen</li>
-          <li>figuranten</li>
-        </ul>
-      </div>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        (2) <span>De werksituatie (repetitietijd):</span>
-        <ul>
-          <li>tritagonisten</li>
-        </ul>
-      </div>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        (3) <span>De voorsteling (HET VERHAAL):</span>
-        <ul>
-          <li>protagonisten</li>
-          <li>antagonisten</li>
-        </ul>
-      </div>
+      </FlexContainer>
+      <FlexContainer>
+        6.4
+        <span>
+          Interpretaties van speelstijlen en de speelmodus waarop het accent ligt –vanuit HET
+          VERHAAL bezien:
+        </span>
+      </FlexContainer>
+      <PlayStylesList>
+        <PlayStylesListItem>
+          (1) <span>De alledaagse werkelijkheid:</span>
+          <ul>
+            <li>bijrollen</li>
+            <li>figuranten</li>
+          </ul>
+        </PlayStylesListItem>
+        <PlayStylesListItem>
+          (2) <span>De werksituatie (repetitietijd):</span>
+          <ul>
+            <li>tritagonisten</li>
+          </ul>
+        </PlayStylesListItem>
+        <PlayStylesListItem>
+          (3) <span>De voorsteling (HET VERHAAL):</span>
+          <ul>
+            <li>protagonisten</li>
+            <li>antagonisten</li>
+          </ul>
+        </PlayStylesListItem>
+      </PlayStylesList>
     </>
   );
 };
