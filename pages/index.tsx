@@ -25,6 +25,7 @@ export default function Home() {
       <GameDirections />
       <PlayStyles second />
       <GameModes second />
+      <RoleDivision second />
     </>
   );
 }
