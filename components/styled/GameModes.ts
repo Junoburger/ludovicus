@@ -15,6 +15,10 @@ export const ModiContainer = styled.div`
 export const Modi = styled.span``;
 
 export const Modilist = styled.div<{ list?: boolean }>`
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
   ${(props) =>
     props.list &&
     css`

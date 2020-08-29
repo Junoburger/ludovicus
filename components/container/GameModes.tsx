@@ -40,6 +40,8 @@ const ThreeOne = () => {
 };
 
 const ThreeTwo = () => {
+  // ALL INLINE STYLES WILL BE STYLED_COMPONENTS WITH LOGIC
+
   return (
     <ChapterContainer>
       3.2 In relatie tot ‘het spelen van het spel’:
@@ -73,12 +75,71 @@ const ThreeTwo = () => {
 };
 
 const Seven = () => {
+  // ALL INLINE STYLES WILL BE STYLED_COMPONENTS WITH LOGIC
   return (
     <>
       <h1>
         <span>7.</span>SPEELMODI (2)
       </h1>
-      7.1 <span>Er zijn speelmodi die versmeltingen zijn van andere speelmodi:</span>
+      <ChapterContainer>
+        7.1 <span>Er zijn speelmodi die versmeltingen zijn van andere speelmodi:</span>
+        <Modilist style={{ flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "baseline",
+              width: "100%",
+              justifyContent: "space-around",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <ul>
+                <li>zelf-regisserende speler</li>
+                <span>
+                  ("je zelf <i>doen</i>")
+                </span>
+              </ul>
+            </div>
+            <div>(a) + (r) = (zrs)</div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "baseline",
+              width: "100%",
+              justifyContent: "space-around",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <ul>
+                <li>zelf-toeschouwende speler</li>
+                <span>
+                  ("je zelf <i>zien</i>")
+                </span>
+              </ul>
+            </div>
+            <div>(a) + (t) = (zts)</div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "baseline",
+              width: "100%",
+              justifyContent: "space-around",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <ul>
+                <li>zelfbewuste speler</li>
+                <span>
+                  ("je zelf <i>zijn</i>")
+                </span>
+              </ul>
+            </div>
+            <div>(zrs) + (zts) = (zbs)</div>
+          </div>
+        </Modilist>
+      </ChapterContainer>
     </>
   );
 };
