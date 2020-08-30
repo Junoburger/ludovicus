@@ -7,6 +7,7 @@ import { PlayStyles } from "../components/container/PlayStyles";
 import { GameModes } from "../components/container/GameModes";
 import { RoleDivision } from "../components/container/RoleDivision";
 import { GameDirections } from "../components/container/GameDirections";
+import { God } from "../components/container/God";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <PlayStyles second />
       <GameModes second />
       <RoleDivision second />
+      <God />
     </>
   );
 }
