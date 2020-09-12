@@ -10,6 +10,9 @@ import { GameDirections } from "../components/container/GameDirections";
 import { God } from "../components/container/God";
 import { Hell } from "../components/container/Hell";
 import { Evil } from "../components/container/Evil";
+import { VirtueSin } from "../components/container/VirtueSin";
+import { BookOfSpells } from "../components/container/BookOfSpells";
+import { TheQuestionMark } from "../components/container/TheQuestionsMark";
 
 export default function Home() {
   return (
@@ -32,6 +35,9 @@ export default function Home() {
       <God />
       <Hell />
       <Evil />
+      <VirtueSin />
+      <BookOfSpells />
+      <TheQuestionMark />
     </>
   );
 }
