@@ -48,6 +48,33 @@ const ChapterNineFour = () => {
   );
 };
 
+const ChapterNineFive = () => {
+  return (
+    <div style={{ padding: "20px", display: "flex" }}>
+      9.5 &nbsp;
+      <strong>
+        Het is goed om ‘mijn’ zelf en‘jouw’ zelf als van nature éénen dezelfde te herkennen.
+      </strong>
+      &nbsp;
+      <img width="40%" src="./static/goldenRule.png" alt="web" />
+    </div>
+  );
+};
+
+const ChapterNineSix = () => {
+  return (
+    <div style={{ padding: "20px" }}>
+      9.6 Ik ben van nature ‘God’.
+      <br /> Jij bent van nature ‘God’.
+      <br /> Wij zijn allen, tezamen, van nature Goddelijk. <br />(
+      <a href="https://en.wikipedia.org/wiki/Process_theology" style={{ fontSize: "8pt" }}>
+        https://en.wikipedia.org/wiki/Process_theology
+      </a>
+      )
+    </div>
+  );
+};
+
 export const God = () => {
   return (
     <ChapterContainer>
@@ -58,6 +85,8 @@ export const God = () => {
       <ChaperNineTwo />
       <ChapterNineThree />
       <ChapterNineFour />
+      <ChapterNineFive />
+      <ChapterNineSix />
     </ChapterContainer>
   );
 };

@@ -8,6 +8,7 @@ import { GameModes } from "../components/container/GameModes";
 import { RoleDivision } from "../components/container/RoleDivision";
 import { GameDirections } from "../components/container/GameDirections";
 import { God } from "../components/container/God";
+import { Hell } from "../components/container/Hell";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <GameModes second />
       <RoleDivision second />
       <God />
+      <Hell />
     </>
   );
 }
