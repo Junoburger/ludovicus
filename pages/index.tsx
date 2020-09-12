@@ -9,6 +9,7 @@ import { RoleDivision } from "../components/container/RoleDivision";
 import { GameDirections } from "../components/container/GameDirections";
 import { God } from "../components/container/God";
 import { Hell } from "../components/container/Hell";
+import { Evil } from "../components/container/Evil";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <RoleDivision second />
       <God />
       <Hell />
+      <Evil />
     </>
   );
 }
